@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+.Contain-TraveTo .navbar{
+    background-color: rgb(59, 67, 59);
+    box-shadow: 2px 2px 38px rgb(59, 67, 59);
+
+}
+
+.Partie-GD{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.Partie-G{
+    width: 50%;
+    padding: 20px;
+    margin-top: 60px;
+}
+.Partie-D{
+    width: 50%;
+    padding: 20px;
+    margin: 40px;
+    background-image: url(../image/route.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(43, 60, 43, 0.342);
+    background-blend-mode: color;
+}
+.input-Question-Phillipe-Edouart-Biron{
+    margin-top: 47px;
+}
+.input-Question-Phillipe-Edouart-Biron form.Contact-form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.input-Question-Phillipe-Edouart-Biron form.Contact-form input#Name-Mail{
+    margin-bottom: 12px;
+    height: 80px;
+    font-size: 20px;
+    padding: 20px;
+    font-family:'Anton', sans-serif;
+    border:2px solid grey;
+    border-radius: 35px;
+}
+
+.input-Question-Phillipe-Edouart-Biron form.Contact-form textarea{
+    height: 200px;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid grey;
+}
+.Details-TraveTo{
+    padding-left: 10% ;
+    padding-right: 10%;
+    border:7px solid white;
+}
+.Details-TraveTo h3{
+    color: white;
+    display: flex ;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 150px;
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+.Details-TraveTo div.Info-map{
+    display: flex;
+    color: white;
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    
+}
+.Details-TraveTo div.Info-map-All{
+    background-color: rgba(0, 0, 0, 0.571);
+    box-shadow: 0px 0px 40px 4px black;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 35px;
+}
+.button-Map{
+    display: flex;
+    justify-content: center;
+}
+.button-Map button{
+    margin-top: 150px;
+    margin-bottom: 100%;
+   background-color: transparent;
+   border: 0;
+   outline: 0;
+}
+.button-Map button a:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+.button-Map button a{
+    background-size: 0;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 35px;
+    transition: 0.35s;
+    font-family: fantasy;
+}
+
+input#input-submit{
+    width: 150px;
+    margin: 30px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 35px;
+    transition: 0.35s;
+    
+}
+input#input-submit:hover{
+    background-color: black;
+    color: white;
+    transition: 0.35s;
+}
+
+.title-Phillipe-Edouart-Biron h1{
+    color: grey;
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 100%;
+    font-family: 'Noto Serif Lao', serif;
+}
+.why-Phillipe-Edouart-Biron {
+    border-bottom: 2px solid black ;
+    margin-top: 20px;
+    border-bottom: double;
+}
+.why-Phillipe-Edouart-Biron h2{
+    font-size: 235%;
+    font-family: 'Noto Serif Lao', serif;
+    margin-bottom: 20px;
+    color: black;
+}
+@media only screen and (max-width: 1174px){
+    .Partie-GD{
+        display:flow-root;
+    }
+    .Partie-G{
+        width: 100%;
+    }
+    .Partie-D{
+        width: 80%;
+        margin-left: 10%;
+    }
+}

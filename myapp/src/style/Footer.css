@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.footer h4{
+    color: black;
+    margin: 10px;
+    display: flex;
+    justify-content:end;
+}
+.underline{
+    text-decoration: underline;
+}
+/* Right Footer */
+.right-footer{
+    margin-top:25px;
+}
+/* Left Footer */
+.left-footer{
+    padding: 80px;
+}
+.footer .left-footer img{
+    width: 80px;
+    transition: 1s;
+}
+.left-footer img:hover{
+    rotate: 360deg;
+    transition: 1s;
+    background-color: white;
+}

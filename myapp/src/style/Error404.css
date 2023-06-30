@@ -1,0 +1,11 @@
+
+html body div#root div.all{
+    margin: 10%;
+    padding: 100px;
+    text-align: center;
+    border-radius: 36px;
+
+    background-color: rgb(63 91 63 / 42%);
+    box-shadow: 2px 2px 38px rgb(63 91 63 / 42%);
+}
+

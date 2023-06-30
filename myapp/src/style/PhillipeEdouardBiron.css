@@ -1,0 +1,63 @@
+  @import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+
+  .Contain-PhillipeEdouardBiron {
+      background-image: url(../image/NB-Chic/backpebiron.png);
+      height: 100vh;
+      background-size: cover;
+  }
+
+  div.PhillipeEdouardBiron {
+      position: absolute;
+      top: 7%;
+      min-width: 67vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+  }
+
+  .Contain-PhillipeEdouardBiron .PhillipeEdouardBiron h1 {
+      font-size: 15vh;
+      color: #ffffff;
+      /* font-family: 'Gloock', serif; */
+      /* font-family: 'Satisfy', cursive; */
+      /* font-family: 'Tinos', serif; */
+      font-family: script;
+
+      letter-spacing: 5px;
+      margin-top: 50px;
+      font-weight: normal;
+  }
+
+  .Contain-PhillipeEdouardBiron .PhillipeEdouardBiron h2 {
+      color: #969696;
+      margin-top: -30px;
+      font-weight: normal;
+      font-family: 'Tinos', serif;
+
+  }
+
+  div.txt-info-Phillipe-Edouard-Biron h3 {
+      position: absolute;
+      bottom: 0;
+      padding: 5%;
+      color: rgb(96, 96, 96);
+  }
+
+
+
+  @media only screen and (max-width: 1155px) {
+      .Contain-PhillipeEdouardBiron {
+          background-position-x: -200px;
+      }
+
+      .Contain-PhillipeEdouardBiron .PhillipeEdouardBiron {
+          rotate: 90deg;
+          position: absolute;
+          top: 30vh;
+          left: -20vh;
+          transition: 1s;
+      }
+  }

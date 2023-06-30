@@ -1,0 +1,191 @@
+@font-face {
+    font-family: script ;
+    src: url(../fonts/Beyond\ Infinity\ -\ Demo.ttf);
+  }
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+.Contain-home{
+    background-color: rgb(255, 255, 255);
+    height: 120vh;
+}
+.titlehome{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color:#3b433b ;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    
+}
+.titlehome h1{
+    font-family: script;
+    font-size: 70px;
+    font-weight: 100;
+    color: white;
+}
+.Contain-home .img-praticiens a{
+    padding: 0;
+    margin: 0;
+}
+div.img-praticiens {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+.img-praticiens a{
+    width: 100%;
+}
+.img-praticiens a.PE{
+    text-align: right;    
+}
+.img-praticiens a.PE img{
+    float: right;
+}
+div.img-praticiens img{
+    width: 100%;
+    transition: 0.35s;
+    
+}
+
+
+
+div.img-EricBonnet {
+    background-color: black ;
+    transition: 1s;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+}
+div.img-EricBonnet a{
+    width: fit-content;
+}
+div.img-EricBonnet img{
+    margin-bottom: -3px;
+    width: fit-content;
+    height: 500px;
+    margin-left: 2px;
+}
+div.img-EricBonnet img:hover{
+    opacity: 0.5;
+    transition: 0,35s;
+}
+.text-EB{
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.text-EB h2, .text-PE h2{
+    font-family: script;
+    font-size: 70px;
+}
+
+.text-PE{
+    color: white;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 900;
+}
+
+div.img-PhillipeEdouardBiron {
+    transition: 0.35s;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 0px;
+    opacity: 1;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+}
+div.img-PhillipeEdouardBiron img{
+    height: 500px;
+    width: fit-content;
+    margin-right: 2px;
+}
+div.img-PhillipeEdouardBiron img:hover {
+    opacity: 0.5;
+    transition: 0.35s;
+}
+
+button.button-Phillipe-Edouard-Biron{
+    top: 50%;
+    margin-left: 25%;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    z-index: 999;
+    opacity: 0;
+}
+
+button.button-Phillipe-Edouard-Biron a{
+    background-size: 0;
+    color: white;
+}
+button.TraveTo-Phillipe-Edouard-Biron{
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.button-TraveTo-Phillipe-Edouard-Biron{
+    display: flex;
+    justify-content: center;
+    background-color: #3b433b;
+    height: 39%;
+}
+
+.TraveTo-Phillipe-Edouard-Biron a{
+    background-color: rgba(165, 49, 49, 0);
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 15px;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    transition: 0.1s;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+button.TraveTo-Phillipe-Edouard-Biron a:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 0.5s;
+
+    
+}
+@media only screen and (max-width: 590px){
+    .img-PhillipeEdouardBiron, .img-EricBonnet{
+        flex-direction: column;
+    }
+    .text-EB, .text-PE{
+        margin: 5vh;
+    }
+}
+@media only screen and (max-width: 1155px){
+    div.Contain-home div.img-praticiens{
+        display:unset;
+    }
+    div.img-PhillipeEdouardBiron{
+        max-height: 100%;
+        background-color: black;
+    }
+    div.img-praticiens img{
+        padding: 30px;
+    }
+    .text-PE{
+        margin: 0;
+    }
+}
