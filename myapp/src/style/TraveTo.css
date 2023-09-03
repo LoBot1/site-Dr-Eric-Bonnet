@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-.Contain-TraveTo .navbar{
-    background-color: rgb(59, 67, 59);
+.navbar{
+    background-color: rgb(91, 105, 91);
     box-shadow: 2px 2px 38px rgb(59, 67, 59);
 
 }

@@ -1,6 +1,7 @@
 .navbar{
-    background-color: rgb(59, 67, 59);
-    box-shadow: 2px 2px 38px rgb(59, 67, 59);
+    background: #304039;
+    box-shadow: 2px 2px 38px rgb(104, 114, 104);
+    height: 45px;
 }
 iframe#gmap_canvas{
     width: 100%;

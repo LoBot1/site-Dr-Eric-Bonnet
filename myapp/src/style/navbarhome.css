@@ -1,0 +1,15 @@
+.logobtn{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.btn-navh{
+    display: flex;
+    
+}
+.btn-navh .navh{
+    margin: 15px;
+   
+}

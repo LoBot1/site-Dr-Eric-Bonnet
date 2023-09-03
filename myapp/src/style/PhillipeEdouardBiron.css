@@ -3,11 +3,16 @@
   @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
   .Contain-PhillipeEdouardBiron {
-      background-image: url(../image/NB-Chic/backpebiron.png);
-      height: 100vh;
-      background-size: cover;
+    
   }
-
+.Contain-PhillipeEdouardBiron .Background-image{
+    height: 100vh;
+    width: 100vh;
+    background-image: url(../image/NB-Chic/backpebiron.png);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
   div.PhillipeEdouardBiron {
       position: absolute;
       top: 7%;
@@ -49,7 +54,7 @@
 
 
   @media only screen and (max-width: 1155px) {
-      .Contain-PhillipeEdouardBiron {
+      .Background-image{
           background-position-x: -200px;
       }
 
@@ -60,4 +65,9 @@
           left: -20vh;
           transition: 1s;
       }
+  }
+  @media only screen and (max-width: 425px){
+    .Background-image{
+        background-position-x: -400px;
+    }
   }

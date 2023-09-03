@@ -1,11 +1,16 @@
 import React from "react";
 import "../style/Footer.css";
-import img from "../image/logo.png";
+import img from "../image/792_eb.png";
 function Footer() {
     return <div>
         <div className="footer">
             <div className="left-footer">
-                <img src={img} alt="logo phillipe edouard Biron" />
+                <div className="rotateimg1">
+                    <div className="contentrotate">
+                        <span className="backimg"></span>
+                        <img src={img} alt="logo phillipe edouard Biron" />
+                    </div>
+                </div>
             </div>
             <div className="right-footer">
                 <h4><div className="underline">Adresse cabinet:</div> 792 N6, 69760 Limonest</h4>

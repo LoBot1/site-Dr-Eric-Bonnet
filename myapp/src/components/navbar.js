@@ -1,7 +1,7 @@
 import { useRef, } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-import img from "../image/logo.png";
+import img from "../image/792_eb.png";
 
 
 import '../style/navbar.css'
@@ -37,7 +37,7 @@ function NavBar() {
                     </ul>
                     <ul>
                         <li>
-                            <a className="nav" href="/EricBonnet">E bonnet</a>
+                            <a className="nav" href="/EricBonnet">E Bonnet</a>
                         </li>
                     </ul>
                 </nav>

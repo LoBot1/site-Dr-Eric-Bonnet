@@ -3,76 +3,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 
 @font-face {
-  font-family: script ;
+  font-family: script;
   src: url(../fonts/Beyond\ Infinity\ -\ Demo.ttf);
 }
 
-.Contain-EricBonnet{
+
+.Contain-EricBonnet .Background-image {
   background-image: url(../image/NB-Chic/backeric.png);
   height: 100vh;
-  background-size: cover;
-
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #7f7f7f;
 }
 
-div.EricBonnet{
+div.EricBonnet {
   position: absolute;
-    top: 7%;
-    min-width: 67vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+  top: 7%;
+  min-width: 67vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
-.Contain-EricBonnet .EricBonnet h1{
+
+.Contain-EricBonnet .EricBonnet h1 {
   font-size: 15vh;
   color: #2a392aa8;
   /* font-family: 'Gloock', serif; */
   /* font-family: 'Satisfy', cursive; */
   /* font-family: 'Tinos', serif; */
-  font-family: script ;
+  font-family: script;
 
   letter-spacing: 5px;
   padding-left: 5%;
   margin-top: 50px;
   font-weight: normal;
-  
+
 }
-.Contain-EricBonnet .EricBonnet h2{
+
+.Contain-EricBonnet .EricBonnet h2 {
   color: #2a392aa8;
   margin-top: -10px;
   font-weight: normal;
   font-family: 'Tinos', serif;
-  
+
 
 }
-div.txt-info-Eric-Bonnet h3{
-  position:absolute;
+
+div.txt-info-Eric-Bonnet h3 {
+  position: absolute;
   bottom: 0;
   padding: 5%;
   color: rgb(88, 88, 88);
 }
-@media only screen and (max-width: 2500px){
-  .Contain-EricBonnet {
-    background-position-y: -200px;
+
+@media only screen and (max-width: 1510px) {
+  .Contain-EricBonnet .Background-image {
+    background-size: cover;
 
   }
+
 }
-@media only screen and (max-width: 2100px){
-  .Contain-EricBonnet {
-    background-position-y: 00px;
+
+@media only screen and (max-width: 1200px) {
+  .Contain-EricBonnet .Background-image {
+    background-position-x: -300px;
 
   }
+
 }
-@media only screen and (max-width: 1155px) {
-  .Contain-EricBonnet {
-      background-position-x: -200px;
+
+@media only screen and (max-width: 900px) {
+  .Contain-EricBonnet .Background-image {
+    background-position-x: -400px;
+
   }
 
-  .Contain-EricBonnet .EricBonnet {
-      rotate: 90deg;
-      position: absolute;
-      top: 30vh;
-      left: -20vh;
-      transition: 1s;
+}
+
+@media only screen and (max-width: 700px) {
+  .Contain-EricBonnet .Background-image {
+    background-position-x: -500px;
+
   }
+
+}
+
+
+.Contain-EricBonnet .EricBonnet {
+  rotate: 90deg;
+  position: absolute;
+  top: 30vh;
+  left: -20vh;
+  transition: 1s;
 }
