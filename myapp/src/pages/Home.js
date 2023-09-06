@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 import "../style/navbar.css"
 import "../style/home.css"
 import Footer from "../components/footer";
-
+import {BsTelephone} from "react-icons/bs"
 import imgEric from "../image/NB-Chic/moit/EBO-moit.jpeg";
 import imgBiron from "../image/NB-Chic/moit/PEB-moit.jpeg";
 import NavBarHome from "../components/navbarhome";
@@ -19,7 +19,7 @@ function Home(props) {
          <div className="img-PhillipeEdouardBiron">
             <div className="text-PE">
                <h2> PE Biron </h2>
-               <p>Adresse cabinet:792 N6, 69760 Limonest</p>
+               <p>Adresse : 792 N6, 69760 Limonest</p>
             </div>
             <div className="right">
                <div className="PEIMG">
@@ -35,7 +35,7 @@ function Home(props) {
          <div className="img-EricBonnet">
             <div className="text-EB">
                <h2> Eric Bonnet </h2>
-               <p>Tel Cabinet : 04 72 17 03 79</p>
+               <p> <BsTelephone/> : 04 72 17 03 79</p>
             </div>
             <div className="right">
                <div className="EBIMG">
@@ -49,8 +49,7 @@ function Home(props) {
 
       </div>
       <div className="titlehome">
-         <h1>Cabinet du <span className="underlines">Dr Eric Bonnet</span>  <br></br>et <span className="underlines">Dr PE Biron</span></h1>
-
+         <h1>Cabinet de Chirurgie Dentaire</h1>
 
 
          <div className="btntitlehome">

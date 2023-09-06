@@ -139,10 +139,6 @@
 
  /* --------------template----------- */
 
- .underlines {
-     border-bottom: 3px solid;
-     font-weight: 400;
- }
 
  /* ----------------- Responsive -----------------*/
  @media only screen and (max-width: 1370px){
