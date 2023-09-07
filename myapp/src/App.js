@@ -21,6 +21,9 @@ function App(props){
       <Route exact path="1">
           <PhillipeEdouartBiron/>
         </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
         <Route path="/Home"> 
           <Home /> 
         </Route>

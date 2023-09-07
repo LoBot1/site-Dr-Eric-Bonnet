@@ -3,7 +3,7 @@ import NavBar from "../components/navbar";
 import "../style/navbar.css"
 import "../style/home.css"
 import Footer from "../components/footer";
-import {BsTelephone} from "react-icons/bs"
+import {BsTelephone} from "react-icons/bs";
 import imgEric from "../image/NB-Chic/moit/EBO-moit.jpeg";
 import imgBiron from "../image/NB-Chic/moit/PEB-moit.jpeg";
 import NavBarHome from "../components/navbarhome";
@@ -52,9 +52,10 @@ function Home(props) {
          <h1>Cabinet de Chirurgie Dentaire</h1>
 
 
+
          <div className="btntitlehome">
             <a className="findus nav btnContfind" href="map">Nous Trouver</a>
-            <a className="contactus nav btnContfind" href="map">Nous Contacter</a>
+            <a className="contactus nav btnContfind" href="NousRetrouver">Nous Contacter</a>
          </div>
       </div>
     
