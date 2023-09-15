@@ -19,7 +19,7 @@
 div.EricBonnet {
   position: absolute;
   top: 7%;
-  min-width: 67vh;
+  width: 67vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,7 @@ div.EricBonnet {
 
 .Contain-EricBonnet .EricBonnet h1 {
   font-size: 15vh;
-  color: #2a392aa8;
+  color: #2a392a;
   /* font-family: 'Gloock', serif; */
   /* font-family: 'Satisfy', cursive; */
   /* font-family: 'Tinos', serif; */
@@ -42,7 +42,7 @@ div.EricBonnet {
 }
 
 .Contain-EricBonnet .EricBonnet h2 {
-  color: #2a392aa8;
+  color: #2a392a;
   margin-top: -10px;
   font-weight: normal;
   font-family: 'Tinos', serif;
@@ -57,6 +57,13 @@ div.txt-info-Eric-Bonnet h3 {
   color: rgb(88, 88, 88);
 }
 
+.Contain-EricBonnet .EricBonnet {
+  rotate: 90deg;
+  position: absolute;
+  top: 30vh;
+  left: -20vh;
+  transition: 1s;
+}
 @media only screen and (max-width: 1510px) {
   .Contain-EricBonnet .Background-image {
     background-size: cover;
@@ -71,12 +78,23 @@ div.txt-info-Eric-Bonnet h3 {
 
   }
 
+  .Contain-EricBonnet .EricBonnet {
+    rotate: 0deg;
+    top: 20px;
+    left: 20%;
+
+
+  }
+
 }
 
 @media only screen and (max-width: 900px) {
   .Contain-EricBonnet .Background-image {
     background-position-x: -400px;
 
+  }
+  .Contain-EricBonnet .EricBonnet{
+    left: 10%;
   }
 
 }
@@ -86,14 +104,30 @@ div.txt-info-Eric-Bonnet h3 {
     background-position-x: -500px;
 
   }
+  .Contain-EricBonnet .EricBonnet{
+    left: 5%;
+  }
+}
 
+@media only screen and (max-width: 700px) {
+
+  .Contain-EricBonnet .EricBonnet{
+    left: 0%;
+    width: 100%;
+    top: 0;
+  }
+  .Contain-EricBonnet .EricBonnet h1 {
+    font-size: 8vh;
+    padding: 0;
+
+
+  }
+  .Contain-EricBonnet .EricBonnet h2{
+    font-size:18px;
+   
+
+
+  }
 }
 
 
-.Contain-EricBonnet .EricBonnet {
-  rotate: 90deg;
-  position: absolute;
-  top: 30vh;
-  left: -20vh;
-  transition: 1s;
-}
