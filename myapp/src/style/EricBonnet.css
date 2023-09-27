@@ -131,3 +131,8 @@ div.txt-info-Eric-Bonnet h3 {
 }
 
 
+@media only screen and (max-height: 820px) {
+  .Contain-EricBonnet .EricBonnet h1{
+   font-size: 11vh;
+  }
+}

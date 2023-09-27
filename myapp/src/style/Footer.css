@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-between;
     background-color: #304039;
-    height:  47vh;
     background: linear-gradient(5deg, rgba(255,255,255,1) 0%, rgba(48,64,57,1) 56%);
 }
 
@@ -39,7 +38,7 @@
 .footer .left-footer .backimg {
     position: absolute;
     left: 15px;
-    top: 250px;
+    top: 230px;
     padding: 70px;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     background-color: #304039;
@@ -48,7 +47,7 @@
 
 .footer .left-footer img {
     position: absolute;
-    top: 290px;
+    top: 270px;
     left: 30px;
     width: 100px;
     transition: 1s;
